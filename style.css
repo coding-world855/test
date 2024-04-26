@@ -1,0 +1,99 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: linear-gradient(to right, #1696A0, rgb(255, 255, 255));
+}
+
+.container {
+    border: 2px solid black;
+    border-radius: 20px;
+    width: 500px;
+    height: 400px;
+    background: linear-gradient(to right, #1696A0, rgb(255, 255, 255));
+    margin: 100px 400px;
+    box-shadow: 10px 10px 10px paleturquoise;
+}
+
+.form {
+    padding: 10px 40px;
+
+}
+
+h1 {
+    text-align: center;
+    padding: 10px 0;
+    color: #3390EC;
+}
+
+.name label {
+    padding: 2px 40px 5px 0;
+
+}
+
+.name input {
+    padding: 5px;
+    margin: 0 0 15px 50px;
+}
+
+.phon label {
+    padding: 2px 40px 5px 0;
+
+}
+
+.phon input {
+    padding: 5px;
+    margin: 0 0 15px 50px;
+}
+
+.pass label {
+    padding: 2px 23px 5px 0;
+
+}
+
+.pass input {
+    padding: 5px;
+    margin: 0 0 15px 44px;
+}
+
+.select-box label {
+    padding: 2px 23px 5px 0;
+}
+
+.select-box select {
+    padding: 5px 55px;
+    margin: 0 0 15px 60px;
+
+    height: calc(100vh - 80vh);
+}
+
+.email label {
+    padding: 2px 40px 5px 0;
+
+}
+
+.email input {
+    padding: 5px;
+    margin: 0 0 15px 55px;
+}
+
+.btn input {
+    margin: 20px 50px;
+    padding: 5px 0px;
+    width: 300px;
+    cursor: pointer;
+}
+
+.btn input:hover {
+    background: linear-gradient(to right,#1696A0, rgba(255, 255, 255, 0.116) );
+    color: aliceblue;
+    font-weight: bold;
+}
+
+.check-box input {
+    color: #3390EC;
+}
