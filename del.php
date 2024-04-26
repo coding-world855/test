@@ -12,7 +12,7 @@ if (isset($_GET['deleteid'])) {
 	    header('location:display.php');
 
 	}else{
-		die(mysqli_error($conn));
+		die(mysqli_error($confdgggn));;
 	}
 }
 
